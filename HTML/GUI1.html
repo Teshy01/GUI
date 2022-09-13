@@ -1,0 +1,388 @@
+<!--
+File: main.html
+GUI Assignment: Creating Your First Web Page
+Hritesh Rajanagan, UMass Lowell Computer Science, hritesh_rajanagan@student.uml.edu
+What to submit: Nothing to submit as long as your editor is ready to use.
+PART 2: First Web Page
+Copyright (c) 2021 by Hritesh. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by WZ on September 12, 2022 at 10:03 PM
+-->
+
+<!--
+    This tag up top is used to specify that the document is an HTML document.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <!--
+        This html lang line makes it known that the document is being written
+        in the English language
+    -->
+    <head>
+        <link rel="stylesheet" type="text/css" href="../CSS/hw1.css">
+        <!--
+            The title is basically the browser name when you load up the website.
+        -->
+        <title>Pokemon Starter Guide</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <!--
+            This is the body of the webpage, all of the webpage details are
+            contained in here.
+        -->
+        <h1>Pokemon Diamond</h1>
+        <!--
+            H1 is the second largest header size, so I went with it so that
+            the header pops out on the webpage
+        -->
+        <div>
+            <!--
+                This is the start of the first div, I use one for the intro, and
+                then one for each of the pokemon I talk about. <p> stands for
+                the body paragraph that I write
+            -->
+        <p>One of the best generations of Pokemon of all time is generation 
+            four. The starter Pokemon in this generation had some of the coolest
+            designs of all time, and the storyline was extremely interesting.
+            The gameplay in this generation was also incredible, as difficulty was
+            amped up and trainers would find themselves stuck between a rock and 
+            a hard place. As a child, I enjoyed playing through these games, and I put in
+            a ton of effort to finish the game, post-game content, and the pokedex. 
+            Finishing the whole game and having all the pokemons allowed you to brag 
+            to your friends about how many hours you put into this brilliant game. For me,
+            the start of this game was one of my favorite parts, since this game had, in 
+            my opinion, the best three starters of all time. Chimchar, Piplup and Turtwig
+            were all brilliant starter Pokemon, and I loved each and every one of them. 
+            This webpage is dedicated to giving you a rundown on each of the starters, and
+            help you admire each of them as well!  
+        </p>
+    </div>
+    <br>
+        <div>
+            <!--
+                I use h2 here because each of the pokemon are inside of the game 
+                Pokemon Diamond, so they are the "subtopics"
+            -->
+        <h2>Chimchar</h2>
+        <!--
+            I named this image "img", so I could refer to it in my CS file and make the styling I wanted
+        -->
+        <img class="img" src="../Images/Chimchar.jpg" alt="Chimchar" >
+        <!-- 
+            Here is anothe paragraph just for explanation on my webpage
+        -->
+        <p>
+            Chimchar is my favorite pokemon in this generation. He is the fire starter of this generation, 
+            and he is based off monkeys. He later evolves into a fighting fire type menace, which is extremely
+            good late game. Below is a table of all the moves Chimchar learns by level up:
+        
+        </p>
+        <!--
+            This is the table class, I call it center so I can style it in my CSS file, and tr refers to 
+            table row (for every row), and th refers to table header. I named each column in my table as needed
+            and then used td (table day) inside of the table body in a new table row to populate my table as required
+        -->
+        <table class="center">
+                <tr>
+                    <th>Level</th>
+                    <th>Move</th>
+                    <th>Power</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Scratch</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Leer</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Ember</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Taunt</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Power-Up Punch</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Fury Swipes</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Flame Wheel</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>23</td>
+                    <td>Nasty Plot</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>Torment</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>31</td>
+                    <td>Facade</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>33</td>
+                    <td>Fire Spin</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td>Acrobatics</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td>Slack Off</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>47</td>
+                    <td>Flamethrower</td>
+                    <td>90</td>
+                </tr>
+            </tbody>
+        </table>
+        <!--
+            My final paragraph for the first pokemon is written below, with my thoughts
+        -->
+        <p>
+            As you can see, the moveset is not really that great. That's why most people use TMs on Chimchar to
+            make him insanely good. One of the best TMs you can teach Chimchar is flamethrower (you can learn
+            this by level up as well, but it takes a long time to learn this move), and the move works beautifully 
+            with him if he has good special attack. Another fun moveset to run on him is all the punching moves, such 
+            as Thunder Punch, Fire Punch, Ice Punch and Mach Punch. If your Chimchar is a physical attacker, this moveset 
+            works brilliantly, as he has moves that could counter his weakness(such as flying and grass types). 
+            For more information on Chimchar, refer to the link below:
+        </p>
+        <!--
+            This is the final link addition to get more information.
+        -->
+        <a href="https://bulbapedia.bulbagarden.net/wiki/Chimchar_(Pok%C3%A9mon)">Chimchar Bulbapedia</a>
+    </div>
+    <!--
+        Break between divs, after this, the next HTML info is basically repeated from before
+    -->
+    <br>
+    <div>
+        <h2>Piplup</h2>
+        <img class="img" src="../Images/Piplup.png" alt="Piplup" >
+        <p>
+            Piplup, one of the cutest generation four pokemon, is probably my second favorite starter pokemon from
+            this generation. It is the starting water type of this generation, and it has an awesome final evolution
+            typing of water and steel. This pokemon was based of a penguin, and its definitely one of the best pokemon
+            in this generation due to the lack of water types. Here is Piplup's full level up moveset:
+        </p>
+        <table class="center">
+            <tr>
+                    <th>Level</th>
+                    <th>Move</th>
+                    <th>Power</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Pound</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Growl</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Water Gun</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Charm</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Peck</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Bubble Beam</td>
+                    <td>65</td>
+                </tr>
+                <tr>
+                    <td>22</td>
+                    <td>Swagger</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>Fury Attack</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>Brine</td>
+                    <td>65</td>
+                </tr>
+                <tr>
+                    <td>32</td>
+                    <td>Whirlpool</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>36</td>
+                    <td>Mist</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>39</td>
+                    <td>Drill</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>43</td>
+                    <td>Hydro Pump</td>
+                    <td>110</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            The moves Piplup has are actually quite powerful compared to Chimchar. Piplup, having steel and water type, is a huge advantage since both of those 
+            types are basically hard to find throughout this game. Piplup is definitely a wonderful pick for a starter. For more information on Piplup, refer
+            to the link below:
+        </p>
+        <a href="https://bulbapedia.bulbagarden.net/wiki/Piplup_(Pok%C3%A9mon)">Piplup Bulbapedia</a>
+    </div>
+    <br>
+    <div>
+        <h2>Turtwig</h2>
+        <img class="img" src="../Images/Turtwig.jpg" alt="Turtwig" >
+        <p>
+            Turtwig, the cutest of the three starters, is probably the most versatile of all of the starters in this generation. This starting grass type pokemon
+            becomes a ground type after evolving, and it utterly demolishes ninety percent of the gyms in the league. It definitely is the best starter pokemon out of
+            the three. Here is Turtwig's full moveset:
+        </p>
+        <table class="center">
+            <tr>
+                    <th>Level</th>
+                    <th>Move</th>
+                    <th>Power</th>
+                </tr>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Tackle</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Withdraw</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Leafage</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Growth</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Razor Leaf</td>
+                    <td>55</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Curse</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>21</td>
+                    <td>Bite</td>
+                    <td>60</td>
+                </tr>
+                <tr>
+                    <td>25</td>
+                    <td>Mega Drain</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>Leech Seed</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>34</td>
+                    <td>Synthesis</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>37</td>
+                    <td>Crunch</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>41</td>
+                    <td>Giga Drain</td>
+                    <td>75</td>
+                </tr>
+                <tr>
+                    <td>45</td>
+                    <td>Leaf Storm</td>
+                    <td>130</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>
+            Unfortunately, Turtwig doesn't learn any ground type moves after evolving, but you can always teach him Earthquake. Earthquake
+            is an exteremly powerful move that can help you defeat your opponents with no problem. For more information on Turtwig, you can 
+            refer to the link below:
+        </p>
+        <a href="https://bulbapedia.bulbagarden.net/wiki/Turtwig_(Pok%C3%A9mon)">Turtwig Bulbapedia</a>
+    </div>
+    <!--
+        These are the CSS validation tags after my CSS worked correctly
+    -->
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
+    </p>
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+            </a>
+        </p>
+                
+    </body>
+</html> 

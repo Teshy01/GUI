@@ -1,0 +1,46 @@
+/*
+Body CSS uses url to set background to a picture. Pathway is put into url
+h1 CSS style is just change of text color and alignment of text to centet
+p CSS is movement of left margin by 30px, change of text color to black, and larger and bolder font
+h2 CSS style is just change of text color and alignment of text to centet
+img.img represents the image styling, which is just a width of 500px, centered and blocked display
+table styling includes: light yellow text, border around table, spacing in border, centered with a bolder font
+div CSS has backgorund in the div, rounded edge by using border radius, and a 5px outset black border
+*/
+body {
+    background-image: url(../Images/eeeveback.jpg);
+}
+h1 {
+    color:black;
+    text-align: center;
+}
+p {
+    margin-left: 30px;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+h2 {
+    color:black;
+    text-align: center;
+}
+img.img{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}   
+table, td, th {
+    background-color: lightgoldenrodyellow;
+    border: 3px solid;
+    font-weight: bolder;
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div {
+    background-image: url(../Images/background.jpg);
+    border-radius: 10px;
+    border: 5px outset black;
+}
+
